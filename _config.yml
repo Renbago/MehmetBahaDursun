@@ -7,7 +7,7 @@ plugins:
 # email: "baha.dursun123@gmail.com"
 # description: "Advanced Robotics at SDU, Robotics Software Engineer @Saha Robotik"
 
-baseurl: ""
+baseurl: "/MehmetBahaDursun"   # repo adıyla aynı, başında slash
 url: "https://renbago.github.io"
 
 # site settings
