@@ -3,9 +3,9 @@ plugins:
   - jekyll-remote-theme
 
 # title: "Mehmet Baha Dursun"
-# subtitle: "— Robotics Software Engineer"
+subtitle: "— Robotics Software Engineer"
 # email: "baha.dursun123@gmail.com"
-# description: "Advanced Robotics at SDU, Robotics Software Engineer @Saha Robotik"
+description: "Advanced Robotics at SDU, Robotics Software Engineer @Saha Robotik"
 
 baseurl: "/MehmetBahaDursun"   # repo adıyla aynı, başında slash
 url: "https://renbago.github.io"
