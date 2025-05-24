@@ -1,53 +1,49 @@
 ---
 layout: post
-title: Mehmet Baha Dursun
-# description: Lorem ipsum dolor est
-# image: assets/images/pic11.jpg
+title: Saha Robotik
+github: https://github.com/saha-robotics/
+information: https://saharobotik.com/tr/
+image: assets/images/saha-robotik.png
 nav-menu: true
 ---
+
 <style>
   body {
     font-family: 'Segoe UI', 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     background-color: #0e0e1a !important;
     color: #dddddd !important;
-    line-height: 1.9;
+    line-height: 1.7;
   }
 
   h1 {
-    font-size: 2.2em;
-    font-weight: 700;
+    font-size: 1.9em;
     color: #ffffff !important;
+    font-weight: 600;
     margin-bottom: 0.6em;
   }
 
   h2 {
-    font-size: 1.8em;
-    font-weight: 600;
-    color: #ffffff !important;
-    margin-top: 1.4em;
-    margin-bottom: 0.4em;
-  }
-
-  h3 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     font-weight: 600;
     color: #ffffff !important;
     margin-top: 1.2em;
     margin-bottom: 0.4em;
   }
 
-  h4, h5, h6 {
-    font-size: 1.3em;
+  h3 {
+    font-size: 1.4em;
     font-weight: 600;
     color: #ffffff !important;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
   }
 
   p, li {
     color: #dddddd !important;
-    font-size: 1.1em;
+    font-size: 0.95em;
     font-weight: 500;
-    margin-bottom: 0.8em;
+    margin-bottom: 0.6em;
   }
 
   a {
@@ -72,98 +68,77 @@ nav-menu: true
 </style>
 
 
-- **Email:** baha.dursun123@gmail.com  
-- **LinkedIn:** [MehmetBahaDursun](https://www.linkedin.com/in/mehmet-baha-dursun/)  
-- **GitHub:** [Renbago](https://github.com/Renbago)  
-- **Nationality:** Turkish  
-- **Residence Permit:** Denmark  
-- **Work Permit:** Danish  
-- **Date of Birth:** 05/12/2001  
+  <div class="contact-links">
+  <a style="font-size:1.4em; color:#4dabff!important; text-decoration:none; font-weight:600;" href="https://github.com/saha-robotics/" target="_blank"><strong>GitHub</strong></a><br>
+  <a style="font-size:1.4em; color:#4dabff!important; text-decoration:none; font-weight:600;" href="https://saharobotik.com/tr/" target="_blank"><strong>saharobotik.com</strong></a><br>
+  <a style="font-size:1.4em; color:#4dabff!important; text-decoration:none; font-weight:600;" href="https://www.linkedin.com/company/saha-robotik/posts/?feedView=all" target="_blank"><strong>LinkedIn</strong></a><br>
+  <a style="font-size:1.4em; color:#4dabff!important; text-decoration:none; font-weight:600;" href="https://www.instagram.com/saharobotik/" target="_blank"><strong>Instagram</strong></a>
+</div>
 
----
+  <!-- Company Overview -->
+  <h2 id="overview">Company Overview</h2>
+  <p>The company is a Turkish startup producing autonomous waiter and cargo robots in the Bilişim Vadisi tech park.</p>
 
-## 🎯 About Me
+  <!-- Key Contributions -->
+  <h2 id="contributions">Key Contributions</h2>
+  <ul>
+    <li>Actively using ROS2, C++, and Python.</li>
+    <li>Leading the localization and mapping system development.</li>
+    <li>Maintaining control and navigation systems for 150+ robots operating 24/7.</li>
+    <li>Developed obstacle detection algorithms using 2D LiDAR to estimate trajectories of dynamic and static objects.</li>
+    <li>Managed project lifecycle for the Istanbul Airport autonomous guide-robot:</li>
+    <li>Only autonomous guide robot in Turkey, operating 24/7 with a daily travel of ≥25 km (map size: 187,514 m²).</li>
+  </ul>
 
-- Working on SLAM and control systems at [Saha Robotic](https://saharobotik.com/en/), a company developing autonomous robots.
-- MSc student in Advanced Robotics at the University of Southern Denmark with a full scholarship.
-- Former team lead of the Kocaeli University autonomous vehicle team "KOU-Mekatronom".
+  <div class="12u 12u$(medium)">
+	<h3 style="font-size: 2.4em;">Service robot in Live usage</h3>
+    <div style="margin-top: 1em; text-align: center;">
+    <a href="https://www.youtube.com/watch?v=auuvG2lX1qU" target="_blank">
+      <img src="https://img.youtube.com/vi/auuvG2lX1qU/hqdefault.jpg" alt="Istanbul Airport Demo"
+           style="width:100%; max-width:560px; border:1px solid #ccc; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.1);">
+    </a>
+	<p style="font-size: 0.9em; margin-top: 0.5em; text-align: center;">
+		Click the image to watch the video on YouTube.
+	</p>
+  </div>
 
----
+  <div class="12u 12u$(medium)">
+  	<h3 style="font-size: 2.4em;">Live usage videos from istanbul Airport</h3>
+    <div style="margin-top: 1em; text-align: center;">
+    <a href="https://youtube.com/shorts/Ew7k3N0K_7E?feature=share" target="_blank">
+      <img src="https://img.youtube.com/vi/Ew7k3N0K_7E/hqdefault.jpg" alt="Istanbul Airport Demo"
+           style="width:100%; max-width:560px; border:1px solid #ccc; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.1);">
+    </a>
+	<p style="font-size: 0.9em; margin-top: 0.5em; text-align: center;">
+		Click the image to watch the video on YouTube.
+	</p>
+    <a href="https://youtube.com/shorts/QqKsoyuK5VU" target="_blank">
+      <img src="https://img.youtube.com/vi/QqKsoyuK5VU/hqdefault.jpg" alt="Istanbul Airport Demo"
+           style="width:100%; max-width:560px; border:1px solid #ccc; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.1);">
+    </a>
+	<p style="font-size: 0.9em; margin-top: 0.5em; text-align: center;">
+		Click the image to watch the video on YouTube.
+	</p>
+  </div>
 
-## 💼 Work Experience
+  <div class="12u 12u$(medium)">
+  	<h3 style="font-size: 2.4em;">Istanbul Airport Map</h3>
+    <div style="margin-top: 1em; text-align: center;">
+    <img src="assets/images/IstanbulAirportMap.png" alt="Istanbul Airport Map"
+        style="width:100%; max-width:560px; border:1px solid #ccc; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.1);">
+    <p>Visual map of the Istanbul Airport coverage area for the autonomous guide-robot project.</p>
+  </div>
 
-### Robotics Engineer – Saha Robotik (Istanbul, Turkey)  
-**Nov 2023 – Present**
-- Lead developer of localization and mapping systems (ROS2, C++, Python).
-- Developed obstacle detection using 2D LiDAR for dynamic/static objects.
-- Contributed to Istanbul Airport autonomous guide robot project (187,514 m² map, 25km/day).
-- 150+ robots operating 24/7 in the field.
-
-### Team Lead – KOU-Mekatronom (University Team)  
-**Nov 2021 – Aug 2024**
-- Led 20+ team members annually in building autonomous vehicles.
-- Used C++, Python, MATLAB, OpenCV, YOLO, and ROS.
-- Participated in Teknofest Robotaxi (Ranks: 19th, 6th, 6th).
-- Finalist at Bosch Future Mobility Challenge 2024 (Top 24 out of 160+; only Turkish team).
-
----
-
-## 🤝 Volunteering
-
-### ROS Training Program – Saha Robotik  
-**Feb 2025 – Apr 2025 | Azerbaijan**
-- Led online and on-site ROS training for university students in Azerbaijan.
-
-### Volunteer Tutor – Bambu Platform  
-**Jan 2021 – Jun 2021**
-- Taught middle and high school students during the COVID-19 lockdown.
-
-### PLC Intern – General Automation System  
-**Jun 2021 – Aug 2021**
-- Worked on Mitsubishi PLC systems.
-
-### Lab Assistant – Kocaeli University  
-**2024**
-- Assisted lower-year students with competition projects and coursework.
-
----
-
-## 🎓 Education
-
-### MSc in Engineering – Robot Systems  
-**University of Southern Denmark | Starting Sep 2025**
-- Fully-funded Master's program in Advanced Robotics.
-
-### BSc in Mechatronics Engineering  
-**Kocaeli University | Aug 2019 – Oct 2024**
-
----
-
-## 📰 Publications / Media
-
-- **Autonomous Vehicle News (2024):**  
-  [Article Link](https://www.aa.com.tr/tr/bilim-teknoloji/muhendis-adaylari-gelistirdikleri-otonom-aracla-uluslararasi-yarismada-kursuyu-hedefliyor/3209788)
-
-- **Bachelor’s Thesis (2024):**  
-  [GitHub Link](https://github.com/Renbago/autonomus_vehicle/blob/main/autonomus_vehicle.docx.pdf)
-
----
-
-## 🗣️ Language Skills
-
-- **English (IELTS Certified)**
-  - Listening: C1
-  - Reading: C1
-  - Speaking: B2
-  - Writing: B2
-
----
-
-## 👨‍🏫 References
-
-- **Prof. Metin AYDIN** – metin.aydin@kocaeli.edu.tr  
-- **Prof. Hüseyin Metin ERTUNÇ** – hmertunc@kocaeli.edu.tr  
-- **Asst. Prof. Suat KARAKAYA** – suat.karakaya@kocaeli.edu.tr  
-  [Recommendation Letter](https://drive.google.com/file/d/1iedpF5IsaS79HOugyWWVJIcgx5thGZb-/view)
-
----
+  <div class="12u 12u$(medium)">
+  	<h3 style="font-size: 2.4em;">Azerbaijan ROS training program</h3>
+    <p>
+    As lead of the company's ROS training program, I first provided remote instruction over the course of one month to university
+    students in Azerbaijan. After the remote phase, I traveled to Azerbaijan to deliver in-person training sessions. During the visit,
+    I also attended and evaluated the students' project presentations, which were based on the knowledge they had gained
+    throughout the training
+    </p>
+    <div style="margin-top: 1em; text-align:">
+  	<h3 style="font-size: 1.2em;"><strong>Information:</strong> <a href="https://www.linkedin.com/feed/update/urn:li:activity:7315382416527822851/" target="_blank">From project</a>  </h3>
+    
+  </div>
+</div>
