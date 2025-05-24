@@ -1,9 +1,40 @@
 ---
 layout: page
-title: Elements
-image: assets/images/pic01.jpg
+title: KOU-Mekatronom
+image: assets/images/BFMC.jpg
 nav-menu: true
 ---
+
+<style>
+  body {
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff; /* Tüm metin beyaz */
+    line-height: 1.6;
+    background-color: #0e0e1a; /* Arka plan koyu lacivert/füme gibi kalabilir */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  p, li {
+    color: #eeeeee;
+    font-size: 1em;
+  }
+
+  a {
+    color: #4dabff; /* Parlak mavi link */
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: #82cfff;
+  }
+</style>
 
 <!-- Main -->
 <div id="main" class="alt">
@@ -12,400 +43,177 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Elements</h1>
+			<h1>KOU-Mekatronom</h1>
 		</header>
 
 <!-- Content -->
-<h2 id="content">Sample Content</h2>
-<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+<h2 id="content">Introduction</h2>
+<p>Hello, the KOU-Mekatronom team was founded in 2019 with the purpose of participating in competitions focused on autonomous vehicles. I joined the university team in 2022, and continued as the active team captain until 2025. Currently, I serve as an advisor to the university team, working to ensure the continuation and growth of the next generation.</p>
 <div class="row">
 	<div class="6u 12u$(small)">
-		<h3>Sem turpis amet semper</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+	<h3>Competitions I Participated In</h3>
+	<ul>
+		<li>Teknofest Robotaxi (2022, 2023) – Ranked 19th & 6th among university teams in Turkey</li>
+		<li>Teknofest Robotaxi Mentor (2024)</li>
+		<li>Bosch Future Mobility Challenge (2024) – Only Turkish team among 160 international applicants, finalist top-24 in Cluj, Romania</li>
+	</ul>
 	</div>
+	<!-- Yarışma Açıklamaları -->
 	<div class="6u$ 12u$(small)">
-		<h3>Magna odio tempus commodo</h3>
-		<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac praesent.</p>
+	<h3>Competition Details</h3>
+	<ul>
+		<li>
+		The Robotaxi competition at Teknofest is the most comprehensive autonomous vehicle competition organized in Turkey. 
+		You can watch a related video <a href="https://www.youtube.com/watch?v=PAcczZ4cFB4" target="_blank">here</a>.
+		</li>
+		<br><li>
+		<a href="https://boschfuturemobility.com/" target="_blank">Bosch Future Mobility Challenge</a>, an international autonomous RC car competition organized by Bosch.
+		</li>
+	</ul>
 	</div>
-	<!-- Break -->
-	<div class="4u 12u$(medium)">
-		<h3>Interdum sapien gravida</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+	<!-- Algoritma Detayları -->
+	<div class="12u 12u$(medium)">
+	<h3 style="font-size: 2.4em;">Algorithm Details</h3>
+	<p>
+		Below are reference videos for the Robotaxi and Bosch Future Mobility Challenge competitions, showcasing the algorithms used.
+	</p>
 	</div>
-	<div class="4u 12u$(medium)">
-		<h3>Faucibus consequat lorem</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 	</div>
-	<div class="4u$ 12u$(medium)">
-		<h3>Accumsan montes viverra</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+	<div class="12u 12u$(medium)">
+	<h3>Bosch Future Mobility Challenge:</h3>
+	<p>
+		<li>This series will be shows of all of the details job which i did for the bosch future mobility Challenge.
+		developed nonlinear model predictive control using CasADi to solve equations with a bicycle dynamic
+		model. This control algorithm incorporates obstacle avoidance by calculating distances using the Euclidean
+		method. For localization, I utilized the ZED2i camera, integrating visual odometry and IMU data, and implemented
+		additional encoders and IMU sensors with the robot_localization package. I also transformed point cloud data
+		from the ZED2i into 2D data using the pointcloud_to_laserscan package for obstacle detection, excluding floor
+		depth data. In these projects,<br>
+		<br><li>I worked extensively with C++, Python, MATLAB, and ROS. 
+		You can find full project as open-source and fully detailed readme.md details in my
+		<a href="https://github.com/Renbago/autonomus_vehicle" target="_blank">Github page.
+		</a>
+	<div class="12u 12u$(medium)">
+	<p>
+		<h3>Qualification video</h3>
+	</p>
 	</div>
-</div>
-
-<hr class="major" />
-
-<!-- Elements -->
-<h2 id="elements">Elements</h2>
-<div class="row 200%">
-	<div class="6u 12u$(medium)">
-
-<!-- Text stuff -->
-<h3>Text</h3>
-<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>.
-Finally, this is a <a href="#">link</a>.</p>
-<hr />
-<h2>Heading Level 2</h2>
-<h3>Heading Level 3</h3>
-<h4>Heading Level 4</h4>
-<hr />
-<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-
-<!-- Lists -->
-<h3>Lists</h3>
-<div class="row">
-	<div class="6u 12u$(small)">
-
-		<h4>Unordered</h4>
-		<ul>
-			<li>Dolor etiam magna etiam.</li>
-			<li>Sagittis lorem eleifend.</li>
-			<li>Felis dolore viverra.</li>
-		</ul>
-
-		<h4>Alternate</h4>
-		<ul class="alt">
-			<li>Dolor etiam magna etiam.</li>
-			<li>Sagittis lorem eleifend.</li>
-			<li>Felis feugiat viverra.</li>
-		</ul>
-
+	<!-- YouTube Video Link with Thumbnail -->
+	<div style="margin-top: 1em; text-align: center;">
+	<a href="https://www.youtube.com/watch?v=WsCecAzwwFc&list=PLDE_vDxu0Gkk-s3ndTqIScKTHSvL8dt0m" target="_blank">
+		<img src="https://img.youtube.com/vi/WsCecAzwwFc/hqdefault.jpg" 
+			alt="Watch algorithm video on YouTube"
+			style="width:100%; max-width:560px; border:1px solid #ccc; border-radius:8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+	</a>
+	<p style="font-size: 0.9em; margin-top: 0.5em;">
+		Click the image to watch the video on YouTube.
+	</p>
 	</div>
-	<div class="6u$ 12u$(small)">
-
-		<h4>Ordered</h4>
-		<ol>
-			<li>Dolor etiam magna etiam.</li>
-			<li>Etiam vel lorem sed viverra.</li>
-			<li>Felis dolore viverra.</li>
-			<li>Dolor etiam magna etiam.</li>
-			<li>Etiam vel lorem sed viverra.</li>
-			<li>Felis dolore viverra.</li>
-		</ol>
-
-		<h4>Icons</h4>
-		<ul class="icons">
-			<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-			<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-			<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-			<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-			<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-			<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-		</ul>
-		<ul class="icons">
-			<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-			<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-			<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-		</ul>
-
+	<!-- Full part video all of the algorithms and the working shows in simulation -->
+	<div class="12u 12u$(medium)">
+	<h3>Full part video all of the algorithms and the working shows in simulation</h3>
+	<p>
+		Obstacle_detector, djikstra, mpc and obstacle_avoidance, obstacle detecion, traffic sign detection shows in here
+	</p>
+	<!-- YouTube Video Thumbnail -->
+	<div style="margin-top: 1em; text-align: center;">
+	<a href="https://www.youtube.com/watch?v=udwPYgNa-Cw" target="_blank">
+		<img src="https://img.youtube.com/vi/udwPYgNa-Cw/hqdefault.jpg" 
+			alt="Watch algorithm video on YouTube"
+			style="width:100%; max-width:560px; border:1px solid #ccc; border-radius:8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+	</a>
+	<p style="font-size: 0.9em; margin-top: 0.5em; text-align: center;">
+		Click the image to watch the video on YouTube.
+	</p>
 	</div>
-</div>
-
-<h4>Definition</h4>
-<dl>
-	<dt>Item1</dt>
-	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-	<dt>Item2</dt>
-	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-	<dt>Item3</dt>
-	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-</dl>
-
-<h4>Actions</h4>
-<ul class="actions">
-	<li><a href="#" class="button special">Default</a></li>
-	<li><a href="#" class="button">Default</a></li>
-</ul>
-<ul class="actions small">
-	<li><a href="#" class="button special small">Small</a></li>
-	<li><a href="#" class="button small">Small</a></li>
-</ul>
-<div class="row">
-	<div class="6u 12u$(small)">
-		<ul class="actions vertical">
-			<li><a href="#" class="button special">Default</a></li>
-			<li><a href="#" class="button">Default</a></li>
-		</ul>
+	<!-- Parking algorithm real life with obstacle detection from car view  -->
+	<div class="12u 12u$(medium)">
+	<h3>Parking algorithm real life with obstacle detection from car view</h3>
+	<p>
+		Its shows the parking part in real life from car view.
+	</p>
+	<!-- YouTube Video Thumbnail -->
+	<div style="margin-top: 1em; text-align: center;">
+	<a href="https://www.youtube.com/watch?v=VL7k0jOKzI8" target="_blank">
+		<img src="https://img.youtube.com/vi/VL7k0jOKzI8/hqdefault.jpg" 
+			alt="Watch algorithm video on YouTube"
+			style="width:100%; max-width:560px; border:1px solid #ccc; border-radius:8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+	</a>
+	<p style="font-size: 0.9em; margin-top: 0.5em; text-align: center;">
+		Click the image to watch the video on YouTube.
+	</p>
 	</div>
-	<div class="6u$ 12u$(small)">
-		<ul class="actions vertical small">
-			<li><a href="#" class="button special small">Small</a></li>
-			<li><a href="#" class="button small">Small</a></li>
-		</ul>
+	<!-- Parking algorithm real life with obstacle detection from car view Video Açıklaması -->
+	<div class="12u 12u$(medium)">
+	<h3>Parking algorithm with obstacle detection in simulation</h3>
+	<p>
+		We have the real life coordinat of the parking points. If obstacle detected we are changing the goal position. The simulation Video explain how does it work.
+	</p>
+	<!-- YouTube Video Thumbnail -->
+	<div style="margin-top: 1em; text-align: center;">
+	<a href="https://www.youtube.com/watch?v=fv_t_IlpWR4" target="_blank">
+		<img src="https://img.youtube.com/vi/fv_t_IlpWR4/hqdefault.jpg" 
+			alt="Watch algorithm video on YouTube"
+			style="width:100%; max-width:560px; border:1px solid #ccc; border-radius:8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+	</a>
+	<p style="font-size: 0.9em; margin-top: 0.5em; text-align: center;">
+		Click the image to watch the video on YouTube.
+	</p>
 	</div>
-	<div class="6u 12u$(small)">
-		<ul class="actions vertical">
-			<li><a href="#" class="button special fit">Default</a></li>
-			<li><a href="#" class="button fit">Default</a></li>
-		</ul>
+	<!-- Full part video all of the algorithms and the working shows in simulation -->
+	<div class="12u 12u$(medium)">
+	<h3>Full part video all of the algorithms and the working shows in simulation</h3>
+	<p>
+		Obstacle_detector, djikstra, mpc and obstacle_avoidance, obstacle detecion, traffic sign detection shows in here
+	</p>
+	<!-- YouTube Video Thumbnail -->
+	<div style="margin-top: 1em; text-align: center;">
+	<a href="https://www.youtube.com/watch?v=udwPYgNa-Cw" target="_blank">
+		<img src="https://img.youtube.com/vi/udwPYgNa-Cw/hqdefault.jpg" 
+			alt="Watch algorithm video on YouTube"
+			style="width:100%; max-width:560px; border:1px solid #ccc; border-radius:8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+	</a>
+	<p style="font-size: 0.9em; margin-top: 0.5em; text-align: center;">
+		Click the image to watch the video on YouTube.
+	</p>
 	</div>
-	<div class="6u$ 12u$(small)">
-		<ul class="actions vertical small">
-			<li><a href="#" class="button special small fit">Small</a></li>
-			<li><a href="#" class="button small fit">Small</a></li>
-		</ul>
+	<!-- General all of the list  -->
+	<div class="12u 12u$(medium)">
+	<h3>The video series shows all of the videos which has been recorded.</h3>
+	<p>
+		Have fun!
+	</p>
+	<!-- YouTube Video Thumbnail -->
+	<div style="margin-top: 1em; text-align: center;">
+	<a href="https://www.youtube.com/watch?v=WsCecAzwwFc&list=PLDE_vDxu0Gkk-s3ndTqIScKTHSvL8dt0m" target="_blank">
+		<img src="https://img.youtube.com/vi/WsCecAzwwFc/hqdefault.jpg" 
+			alt="Watch algorithm video on YouTube"
+			style="width:100%; max-width:560px; border:1px solid #ccc; border-radius:8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+	</a>
+	<p style="font-size: 0.9em; margin-top: 0.5em; text-align: center;">
+		Click the image to watch the video on YouTube.
+	</p>
 	</div>
-</div>
-
-<!-- Blockquote -->
-<h3>Blockquote</h3>
-<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.</blockquote>
-
-<!-- Table -->
-<h3>Table</h3>
-
-<h4>Default</h4>
-<div class="table-wrapper">
-	<table>
-		<thead>
-			<tr>
-				<th>Name</th>
-				<th>Description</th>
-				<th>Price</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Item1</td>
-				<td>Ante turpis integer aliquet porttitor.</td>
-				<td>29.99</td>
-			</tr>
-			<tr>
-				<td>Item2</td>
-				<td>Vis ac commodo adipiscing arcu aliquet.</td>
-				<td>19.99</td>
-			</tr>
-			<tr>
-				<td>Item3</td>
-				<td> Morbi faucibus arcu accumsan lorem.</td>
-				<td>29.99</td>
-			</tr>
-			<tr>
-				<td>Item4</td>
-				<td>Vitae integer tempus condimentum.</td>
-				<td>19.99</td>
-			</tr>
-			<tr>
-				<td>Item5</td>
-				<td>Ante turpis integer aliquet porttitor.</td>
-				<td>29.99</td>
-			</tr>
-		</tbody>
-		<tfoot>
-			<tr>
-				<td colspan="2"></td>
-				<td>100.00</td>
-			</tr>
-		</tfoot>
-	</table>
-</div>
-
-<h4>Alternate</h4>
-<div class="table-wrapper">
-	<table class="alt">
-		<thead>
-			<tr>
-				<th>Name</th>
-				<th>Description</th>
-				<th>Price</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Item1</td>
-				<td>Ante turpis integer aliquet porttitor.</td>
-				<td>29.99</td>
-			</tr>
-			<tr>
-				<td>Item2</td>
-				<td>Vis ac commodo adipiscing arcu aliquet.</td>
-				<td>19.99</td>
-			</tr>
-			<tr>
-				<td>Item3</td>
-				<td> Morbi faucibus arcu accumsan lorem.</td>
-				<td>29.99</td>
-			</tr>
-			<tr>
-				<td>Item4</td>
-				<td>Vitae integer tempus condimentum.</td>
-				<td>19.99</td>
-			</tr>
-			<tr>
-				<td>Item5</td>
-				<td>Ante turpis integer aliquet porttitor.</td>
-				<td>29.99</td>
-			</tr>
-		</tbody>
-		<tfoot>
-			<tr>
-				<td colspan="2"></td>
-				<td>100.00</td>
-			</tr>
-		</tfoot>
-	</table>
-</div>
-
-</div>
-<div class="6u$ 12u$(medium)">
-
-<!-- Buttons -->
-<h3>Buttons</h3>
-<ul class="actions">
-	<li><a href="#" class="button special">Special</a></li>
-	<li><a href="#" class="button">Default</a></li>
-</ul>
-<ul class="actions">
-	<li><a href="#" class="button big">Big</a></li>
-	<li><a href="#" class="button">Default</a></li>
-	<li><a href="#" class="button small">Small</a></li>
-</ul>
-<ul class="actions">
-	<li><a href="#" class="button special big">Big</a></li>
-	<li><a href="#" class="button special">Default</a></li>
-	<li><a href="#" class="button special small">Small</a></li>
-</ul>
-<ul class="actions fit">
-	<li><a href="#" class="button special fit">Fit</a></li>
-	<li><a href="#" class="button fit">Fit</a></li>
-</ul>
-<ul class="actions fit small">
-	<li><a href="#" class="button special fit small">Fit + Small</a></li>
-	<li><a href="#" class="button fit small">Fit + Small</a></li>
-</ul>
-<ul class="actions">
-	<li><a href="#" class="button special icon fa-search">Icon</a></li>
-	<li><a href="#" class="button icon fa-download">Icon</a></li>
-</ul>
-<ul class="actions">
-	<li><span class="button special disabled">Special</span></li>
-	<li><span class="button disabled">Default</span></li>
-</ul>
-
-<!-- Form -->
-<h3>Form</h3>
-
-<form method="post" action="#">
-	<div class="row uniform">
-		<div class="6u 12u$(xsmall)">
-			<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-		</div>
-		<div class="6u$ 12u$(xsmall)">
-			<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-		</div>
-		<!-- Break -->
-		<div class="12u$">
-			<div class="select-wrapper">
-				<select name="demo-category" id="demo-category">
-					<option value="">- Category -</option>
-					<option value="1">Manufacturing</option>
-					<option value="1">Shipping</option>
-					<option value="1">Administration</option>
-					<option value="1">Human Resources</option>
-				</select>
-			</div>
-		</div>
-		<!-- Break -->
-		<div class="4u 12u$(small)">
-			<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-			<label for="demo-priority-low">Low</label>
-		</div>
-		<div class="4u 12u$(small)">
-			<input type="radio" id="demo-priority-normal" name="demo-priority">
-			<label for="demo-priority-normal">Normal</label>
-		</div>
-		<div class="4u$ 12u$(small)">
-			<input type="radio" id="demo-priority-high" name="demo-priority">
-			<label for="demo-priority-high">High</label>
-		</div>
-		<!-- Break -->
-		<div class="6u 12u$(small)">
-			<input type="checkbox" id="demo-copy" name="demo-copy">
-			<label for="demo-copy">Email me a copy</label>
-		</div>
-		<div class="6u$ 12u$(small)">
-			<input type="checkbox" id="demo-human" name="demo-human" checked>
-			<label for="demo-human">I am a human</label>
-		</div>
-		<!-- Break -->
-		<div class="12u$">
-			<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-		</div>
-		<!-- Break -->
-		<div class="12u$">
-			<ul class="actions">
-				<li><input type="submit" value="Send Message" class="special" /></li>
-				<li><input type="reset" value="Reset" /></li>
-			</ul>
-		</div>
+	<!-- Robotaksi Video Açıklaması -->
+	<div class="12u 12u$(medium)">
+	<h3>Robotaxi Competition:</h3>
+	<p>
+		This is the video of the real-size autonomous vehicle we competed with in 2023. 
+		Since it was our first year, we used more fundamental approaches such as OpenCV, YOLO, and basic motor control to drive the vehicle. 
+		As a result, we were ranked 6th. <a href="https://github.com/Renbago/autonomus_car_sim_base_ros2" target="_blank">github page.</a>
+	</p>
 	</div>
-</form>
-
-<!-- Image -->
-<h3>Image</h3>
-
-<h4>Fit</h4>
-<span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
-<div class="box alt">
-	<div class="row 50% uniform">
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
-		<!-- Break -->
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
-		<!-- Break -->
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
-	</div>
-</div>
-
-<h4>Left &amp; Right</h4>
-<p><span class="image left"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
-<p><span class="image right"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
-
-<!-- Box -->
-<h3>Box</h3>
-<div class="box">
-	<p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum.</p>
-</div>
-
-<!-- Preformatted Code -->
-<h3>Preformatted</h3>
-<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';
-</code></pre>
-
+	<!-- YouTube Video Thumbnail -->
+	<div style="margin-top: 1em; text-align: center;">
+	<a href="https://www.youtube.com/watch?v=WffA08OOQCI" target="_blank">
+		<img src="https://img.youtube.com/vi/WffA08OOQCI/hqdefault.jpg" 
+			alt="Watch algorithm video on YouTube"
+			style="width:100%; max-width:560px; border:1px solid #ccc; border-radius:8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+	</a>
+	<p style="font-size: 0.9em; margin-top: 0.5em; text-align: center;">
+		Click the image to watch the video on YouTube.
+	</p>
 </div>
 </div>
-
 </div>
-</section>
-
 </div>

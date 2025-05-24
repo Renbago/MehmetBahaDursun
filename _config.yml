@@ -1,17 +1,29 @@
+remote_theme: andrewbanchich/forty-jekyll-theme
+plugins:
+  - jekyll-remote-theme
+
+# title: "Mehmet Baha Dursun"
+# subtitle: "— Robotics Software Engineer"
+# email: "baha.dursun123@gmail.com"
+# description: "Advanced Robotics at SDU, Robotics Software Engineer @Saha Robotik"
+
+baseurl: ""
+url: "https://renbago.github.io"
+
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+title: Mehmet Baha Dursun
+subtitle: do or do not, there is no try
+email: baha.dursun123@gmail.com@gmail.com
+# description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+# baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
+# street_address: 1234 Somewhere Road
+city: Odense
 state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+# zip_code: 55555
+country: Denmark
+# phone: (716) 555-5555
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -22,14 +34,11 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/andrewbanchich
+  GitHub: https://github.com/Renbago
   GitLab:
   Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
   Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
-  Facebook:
-  Slack:
+  LinkedIn: https://www.linkedin.com/in/mehmet-baha-dursun/
 
 # build settings
 markdown: kramdown
