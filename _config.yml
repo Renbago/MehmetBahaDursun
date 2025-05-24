@@ -10,6 +10,12 @@ plugins:
 baseurl: "/MehmetBahaDursun"   # repo adıyla aynı, başında slash
 url: "https://renbago.github.io"
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
 # site settings
 title: Mehmet Baha Dursun
 subtitle: do or do not, there is no try
